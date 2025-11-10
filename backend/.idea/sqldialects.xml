@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://D:/Capstone C100-300/develoment/POSTGRESQL/Db_stressapp/postgresql.sql" dialect="PostgreSQL" />
+  </component>
+</project>

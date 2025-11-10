@@ -1,0 +1,23 @@
+# Abaikan semua file secara default
+*
+
+# Tapi jangan abaikan file dan folder penting
+!.gitignore
+!README.MD
+!requirements.txt
+!package-lock.json
+!main.py
+
+# Sertakan folder proyek
+!app/
+!app/**
+
+!screening_mental_health/
+!screening_mental_health/**
+
+!tests/
+!tests/**
+
+# Abaikan environment dan file sensitif
+venv/
+.env
