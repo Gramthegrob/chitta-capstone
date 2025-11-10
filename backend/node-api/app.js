@@ -13,6 +13,7 @@ const jurnalHarianRoutes = require("./routes/jurnalHarianRoutes");
 const screeningRoutes = require("./routes/screeningRoutes");
 const monitoringRoutes = require("./routes/monitoringRoutes");
 const notificationRoutes = require("./routes/notificationRoutes");
+const konsultasiRoutes = require("./routes/konsultasiRoutes");
 
 // middlewares
 const { errorHandler, notFound } = require("./middlewares/errorHandler");
@@ -34,6 +35,7 @@ app.use("/api/jurnal", jurnalHarianRoutes);
 app.use("/api/screening", screeningRoutes);
 app.use("/api/monitoring", monitoringRoutes);
 app.use("/api/notifications", notificationRoutes);
+app.use("/api/konsultasi", konsultasiRoutes);
 
 // 404 + error
 app.use(notFound);
