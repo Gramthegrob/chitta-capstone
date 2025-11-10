@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CHITTA",
+    "slug": "CHITTA",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/chitta.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/chitta.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/chitta.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.CHITTA"
+    },
+    "web": {
+      "favicon": "./assets/chitta.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f82850bd-03e2-4f88-a9a0-daa76ec51029"
+      }
+    }
+  }
+}
